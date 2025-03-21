@@ -3,12 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-		<!--=============== FLATICON ===============-->
 		<link rel="stylesheet" href="" />
-
-		<!--=============== SWIPER CSS ===============-->
-		<link rel="stylesheet" href="" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 
 		<!--=============== CSS ===============-->
 		<link rel="stylesheet" href="assets/css/styles.css" />
@@ -103,7 +102,80 @@
 			</section>
 
 			<!--=============== CATEGORIES ===============-->
-			<section class="categories"></section>
+			<section class="categories container section">
+				<h3 class="section__title"><span>Popular</span> Categories</h3>
+
+				<div class="categories__container swiper">
+					<div class="swiper-wrapper">
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-1.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">T-Shirt</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-2.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Bags</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-3.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Sandal</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-4.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Scar Cap</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-5.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Shoes</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-6.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Pillowcase</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-7.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Jumpsuit</h3>
+						</a>
+						<a class="category__item swiper-slide" href="shop.html">
+							<img
+								class="category__img"
+								src="assets/img/category-8.jpg"
+								alt="Category-img"
+							/>
+							<h3 class="category__title">Hats</h3>
+						</a>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</section>
 
 			<!--=============== PRODUCTS ===============-->
 			<section class="products"></section>
@@ -124,10 +196,7 @@
 		<!--=============== FOOTER ===============-->
 		<footer class="footer"></footer>
 
-		<!--=============== SWIPER JS ===============-->
-		<script src=""></script>
-
-		<!--=============== MAIN JS ===============-->
-		<script src=""></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>

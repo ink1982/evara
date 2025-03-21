@@ -124,8 +124,21 @@ input {
 	gap: 1.5px;
 }
 
+.section {
+	padding-block: 2rem;
+}
+
 .section--lg {
 	padding-block: 4rem;
+}
+
+.section__title {
+	font-size: var(--h4-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.section__title span {
+	color: var(--first-color);
 }
 
 .form__input {
@@ -309,6 +322,22 @@ input {
 }
 
 /*=============== CATEGORIES ===============*/
+.category__item {
+	text-align: center;
+	border: 1px solid var(--border-color);
+	padding: 0.625rem 0.625rem 1.25rem;
+	border-radius: 1.2rem;
+}
+
+.category__img {
+	border-radius: 0.75rem;
+	margin-bottom: 1.25rem;
+}
+
+.category__title {
+	color: var(--text-color);
+	font-size: var(--small-font-size);
+}
 
 /* Swiper class */
 
