@@ -1082,7 +1082,26 @@ input {
 }
 
 /*=============== DETAILS INFO & REVIEWS ===============*/
+.detail__tabs {
+	display: flex;
+	column-gap: 1.75rem;
+	margin-bottom: 3rem;
+}
 
+.detail__tab {
+	font-family: var(--second-font);
+	font-size: var(--large-font-size);
+	font-weight: var(--weight-600);
+}
+
+.detail__tab.active-tab {
+	color: var(--first-color);
+}
+
+.detail__tab-content:not(.active-tab) {
+	display: none;
+}
+/* 21-17 */
 /*=============== CART ===============*/
 
 /*=============== CART OTHERS ===============*/
