@@ -1265,6 +1265,7 @@ table {
 .table__description {
 	max-width: 250px;
 	margin-bottom: auto;
+	margin: 0 auto;
 }
 
 .table__trash {
