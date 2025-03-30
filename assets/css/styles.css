@@ -1425,6 +1425,30 @@ table {
 }
 
 /*=============== COMPARE ===============*/
+.compare__table tr th,
+.compare__table tr td {
+	padding: 0.5rem;
+	border: 1px solid var(--border-color-alt);
+}
+
+.compare__table tr th {
+	color: var(--text-color-light);
+	font-size: 1px solid var(--small-font-size);
+}
+
+.compare__table tr td {
+	text-align: center;
+}
+
+.compare__colors {
+	justify-content: center;
+}
+
+.table__stock,
+.table__weight,
+.table__dimension {
+	font-size: var(--small-font-size);
+}
 
 /*=============== LOGIN & REGISTER ===============*/
 .login-register__container {
